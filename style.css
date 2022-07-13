@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sen:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #32f5c8;
+  background-color: #013243;
+}
+
+nav {
+  padding: 24px 0;
+}
+
+nav img {
+  width: 80px;
+}
+
+.container {
+  width: 840px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 5.5rem;
+  font-family: "Sen", sans-serif;
+  line-height: 1;
+}
+
+.description {
+  margin-top: 24px;
+  font-size: 1rem;
+  color: #a5bac3;
+}
+
+.btn {
+  margin-top: 24px;
+  padding: 24px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #32f5c8;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #fff;
+}
+
+footer {
+  width: 100%;
+  padding: 24px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+footer p {
+  color: #a5bac3;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+}
+
+footer svg {
+  width: 30px;
+  margin-right: 14px;
+}
+
+.margin-adjust {
+  margin-bottom: 32px;
+}
